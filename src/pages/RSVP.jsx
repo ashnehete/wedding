@@ -26,7 +26,7 @@ const RSVP = () => {
                         padding: 0,
                         margin: 0
                     }}
-                    src="https://www.canva.com/design/DAG_w7s_XiE/pdCQjvpk_QGRGp2X8jwD_g/view?embed"
+                    src="https://withjoy.com/shruti-parvekar-and-aashish/rsvp"
                     allowFullScreen={true}
                     allow="fullscreen"
                     title="Wedding RSVP"

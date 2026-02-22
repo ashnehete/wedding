@@ -36,15 +36,19 @@ const Navigation = () => {
             </div>
             <nav style={{
                 display: 'flex',
-                justifyContent: 'space-around',
+                justifyContent: 'space-evenly',
                 padding: '0.5rem 1rem',
                 backgroundColor: 'var(--white)',
                 textTransform: 'uppercase',
-                fontFamily: 'var(--font-sans)'
+                fontFamily: 'var(--font-sans)',
+                flexWrap: 'wrap'
             }}>
                 <NavLink to="/" style={linkStyle}>Home</NavLink>
                 <NavLink to="/schedule" style={linkStyle}>Schedule</NavLink>
                 <NavLink to="/travel" style={linkStyle}>Travel</NavLink>
+                <NavLink to="/things-to-do" style={linkStyle}>Things to Do</NavLink>
+                <NavLink to="/registry" style={linkStyle}>Registry</NavLink>
+                <NavLink to="/rsvp" style={linkStyle}>RSVP</NavLink>
             </nav>
         </header>
     );

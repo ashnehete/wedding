@@ -1,3 +1,5 @@
+import homeImage from '../assets/home-image.jpg';
+
 const Home = () => {
     return (
         <div
@@ -11,21 +13,20 @@ const Home = () => {
 
             <div style={{
                 fontSize: '2rem',
-                marginBottom: '2rem',
                 color: 'var(--accent-color)',
                 textTransform: 'uppercase'
             }}>
                 We're getting married!
             </div>
 
-            {/* <img
+            <img
                 src={homeImage}
                 alt="Home"
                 style={{
                     width: '100%',
                     objectFit: 'cover',
                     margin: '2rem 0'
-                }} /> */}
+                }} />
 
             <div
                 style={{

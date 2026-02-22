@@ -1,4 +1,5 @@
 import { MapPin, Plane, TramFront, TrainFront, Bed } from 'lucide-react';
+import goofy2Image from '../assets/goofy-2.jpg';
 
 const Travel = () => {
     const headingStyle = {
@@ -29,7 +30,16 @@ const Travel = () => {
 
     return (
         <div className="page-content">
-            <p style={{ marginTop: '1rem' }}>
+            <img
+                src={goofy2Image}
+                alt="Home"
+                style={{
+                    width: '100%',
+                    objectFit: 'cover',
+                    margin: '2rem 0'
+                }} />
+
+            <p style={{ textAlign: 'center', fontStyle: 'italic', marginBottom: '2rem' }}>
                 We are excited to celebrate with you! Here is some information to help you plan your trip.
             </p>
 

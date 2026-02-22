@@ -6,6 +6,8 @@ import Home from './pages/Home';
 import Schedule from './pages/Schedule';
 import Travel from './pages/Travel';
 import RSVP from './pages/RSVP';
+import Registry from './pages/Registry';
+import ThingsToDo from './pages/ThingsToDo';
 
 function App() {
   const location = useLocation();
@@ -30,11 +32,21 @@ function App() {
               <Travel />
             </PageTransition>
           } />
-          {/* <Route path="/rsvp" element={
+          <Route path="/registry" element={
+            <PageTransition>
+              <Registry />
+            </PageTransition>
+          } />
+          <Route path="/things-to-do" element={
+            <PageTransition>
+              <ThingsToDo />
+            </PageTransition>
+          } />
+          <Route path="/rsvp" element={
             <PageTransition>
               <RSVP />
             </PageTransition>
-          } /> */}
+          } />
         </Routes>
       </AnimatePresence>
     </div>
