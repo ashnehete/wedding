@@ -1,0 +1,44 @@
+import { Routes, Route, useLocation } from 'react-router-dom';
+import { AnimatePresence } from 'framer-motion';
+import Navigation from './components/Navigation';
+import PageTransition from './components/PageTransition';
+import Home from './pages/Home';
+import Schedule from './pages/Schedule';
+import Travel from './pages/Travel';
+import RSVP from './pages/RSVP';
+
+function App() {
+  const location = useLocation();
+
+  return (
+    <div className="app-container">
+      <Navigation />
+      <AnimatePresence mode="wait">
+        <Routes location={location} key={location.pathname}>
+          <Route path="/" element={
+            <PageTransition>
+              <Home />
+            </PageTransition>
+          } />
+          <Route path="/schedule" element={
+            <PageTransition>
+              <Schedule />
+            </PageTransition>
+          } />
+          <Route path="/travel" element={
+            <PageTransition>
+              <Travel />
+            </PageTransition>
+          } />
+          {/* <Route path="/rsvp" element={
+            <PageTransition>
+              <RSVP />
+            </PageTransition>
+          } /> */}
+        </Routes>
+      </AnimatePresence>
+    </div>
+  );
+}
+
+export default App;

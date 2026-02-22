@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,400&family=Cinzel:ital,wght@0,400;0,600;0,700;1,400&display=swap');
+
+:root {
+  --primary-color: #FBC02D;
+  /* Wedding Yellow */
+  --accent-color: #F57C00;
+  /* Wedding Orange */
+  --bg-color: #FFFFFF;
+  --text-color: #333333;
+  --white: #FFFFFF;
+  --container-width: 600px;
+  /* Keep it mobile-like on desktop */
+
+  --font-serif: 'Cinzel', serif;
+  --font-sans: 'Lato', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  line-height: 1.6;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Layout Container */
+.app-container {
+  max-width: var(--container-width);
+  margin: 0 auto;
+  min-height: 100vh;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+}
+
+/* Typography */
+h1,
+h2,
+h3 {
+  font-family: var(--font-sans);
+  color: var(--accent-color);
+  margin-bottom: 0.5rem;
+}
+
+button {
+  cursor: pointer;
+}
+
+/* Common Classes */
+.page-content {
+  padding: 2rem;
+  flex: 1;
+}
