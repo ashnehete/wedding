@@ -3,7 +3,7 @@ const Schedule = () => {
         {
             time: '4:30 PM',
             event: 'Arrival & Baraat',
-            description: 'The groom arrives with his family and friends in a grand procession.'
+            description: 'The groom arrives with his family and friends to the sound of music.'
         },
         {
             time: '5:00 PM',
