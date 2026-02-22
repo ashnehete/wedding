@@ -49,6 +49,18 @@ const Travel = () => {
 
             <div style={sectionStyle}>
                 <h3 style={headingStyle}>
+                    <Bed size={24} /> Accommodation
+                </h3>
+                <div style={subsectionStyle}>
+                    <p style={subHeadingStyle}>Areas</p>
+                    <p>
+                        We recommend staying in the <strong>U-District</strong>, <strong>South Lake Union</strong> or <strong>Eastlake</strong> which are all easily accessible by public transportation and have a variety of accommodations to choose from.
+                    </p>
+                </div>
+            </div>
+
+            <div style={sectionStyle}>
+                <h3 style={headingStyle}>
                     <Plane size={24} /> Flights
                 </h3>
                 <div style={subsectionStyle}>
@@ -67,7 +79,7 @@ const Travel = () => {
 
             <div style={sectionStyle}>
                 <h3 style={headingStyle}>
-                    <TramFront size={24} /> Getting Around in the City
+                    <TramFront size={24} /> Getting Around the City
                 </h3>
                 <div style={subsectionStyle}>
                     <p style={subHeadingStyle}>Sound Transit Link Light Rail (1 Line)</p>
@@ -91,18 +103,6 @@ const Travel = () => {
                     <p style={subHeadingStyle}>King Street Station (Amtrak)</p>
                     <p>
                         For those traveling by train, this is the main hub in Seattle, located downtown and a short rideshare away from the venue.
-                    </p>
-                </div>
-            </div>
-
-            <div style={sectionStyle}>
-                <h3 style={headingStyle}>
-                    <Bed size={24} /> Accommodation
-                </h3>
-                <div style={subsectionStyle}>
-                    <p style={subHeadingStyle}>Areas</p>
-                    <p>
-                        We recommend staying in the <strong>U-District</strong>, <strong>South Lake Union</strong>, or <strong>Capitol Hill</strong> which are all easily accessible by public transportation and have a variety of accommodations to choose from.
                     </p>
                 </div>
             </div>

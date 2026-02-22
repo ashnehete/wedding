@@ -7,13 +7,13 @@ const Navigation = () => {
         color: isActive ? 'var(--accent-color)' : 'var(--text-color)',
         padding: '0.5rem',
         textDecoration: 'none',
-        letterSpacing: '0.2rem'
+        letterSpacing: '0.2rem',
+        borderBottom: isActive ? '2px solid var(--accent-color)' : 'none'
     });
 
     return (
         <header style={{
-            backgroundColor: 'var(--white)',
-            borderBottom: '1px solid #eee'
+            backgroundColor: 'var(--white)'
         }}>
             <div style={{
                 width: '100%',
@@ -29,7 +29,8 @@ const Navigation = () => {
                 padding: '0.8rem 0 0.2rem 0',
                 fontSize: '2rem',
                 color: 'var(--text-color)',
-                fontFamily: 'var(--font-serif)'
+                fontFamily: 'var(--font-serif)',
+                letterSpacing: '0.2rem'
             }}>
                 Shruti & Aashish
             </div>
