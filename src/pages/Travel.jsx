@@ -30,14 +30,6 @@ const Travel = () => {
 
     return (
         <div className="page-content">
-            <img
-                src={goofy2Image}
-                alt="Home"
-                style={{
-                    width: '100%',
-                    objectFit: 'cover',
-                    margin: '2rem 0'
-                }} />
 
             <p style={{ textAlign: 'center', fontStyle: 'italic', marginBottom: '2rem' }}>
                 We are excited to celebrate with you! Here is some information to help you plan your trip.
@@ -116,6 +108,15 @@ const Travel = () => {
                     </p>
                 </div>
             </div>
+
+            <img
+                src={goofy2Image}
+                alt="Home"
+                style={{
+                    width: '100%',
+                    objectFit: 'cover',
+                    margin: '2rem 0'
+                }} />
         </div>
     );
 };

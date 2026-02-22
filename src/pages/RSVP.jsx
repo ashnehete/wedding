@@ -1,6 +1,9 @@
 const RSVP = () => {
     return (
         <div className="page-content">
+            <p style={{ textAlign: 'center', fontStyle: 'italic', marginBottom: '2rem' }}>
+                Please RSVP by March 30<sup>th</sup>.
+            </p>
             <div style={{
                 position: 'relative',
                 width: '100%',
