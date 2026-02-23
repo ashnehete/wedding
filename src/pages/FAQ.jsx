@@ -1,3 +1,5 @@
+import goofyImage from '../assets/goofy-5.webp';
+
 const FAQ = () => {
     const faqs = [
         {
@@ -51,6 +53,16 @@ const FAQ = () => {
                     <p>{item.answer}</p>
                 </div>
             })}
+
+            <img
+                src={goofyImage}
+                alt="Home"
+                style={{
+                    width: '100%',
+                    objectFit: 'cover',
+                    marginTop: '2rem'
+                }} />
+            <p style={{ textAlign: 'center', fontStyle: 'italic' }}>You have more questions?</p>
         </div>
     );
 };
