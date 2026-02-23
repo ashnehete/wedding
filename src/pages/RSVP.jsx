@@ -1,3 +1,5 @@
+import goofyImage from '../assets/goofy-1.webp';
+
 const RSVP = () => {
     return (
         <div className="page-content">
@@ -36,6 +38,16 @@ const RSVP = () => {
                 >
                 </iframe>
             </div>
+
+            <img
+                src={goofyImage}
+                alt="Home"
+                style={{
+                    width: '100%',
+                    objectFit: 'cover',
+                    marginTop: '2rem'
+                }} />
+            <p style={{ textAlign: 'center', fontStyle: 'italic' }}>RSVP 'yes' or he keeps posing like this...</p>
         </div>
     );
 };

@@ -11,7 +11,7 @@ const FAQ = () => {
             answer: <span>We would love to see you in <strong>Indian ethnic wear</strong>, but please feel free to dress in whatever makes you feel most comfortable!</span>
         },
         {
-            question: "Can I bring a date?",
+            question: "Can I bring a +1?",
             answer: <span>Please check your RSVP for your +1.</span>
         },
         {
@@ -21,8 +21,7 @@ const FAQ = () => {
         {
             question: "What is the venue like?",
             answer: <span>
-                The entire ceremony will be held indoors with an open-air patio so please carry jackets as Seattle can be rainy and chilly during early May.
-                We will have a better idea about the weather as the date approaches.
+                The entire ceremony will be held indoors with an open-air patio. While we do have heating indoors, the open-air patio can get chilly. Plus, Seattle being Seattle, it can get rainy anytime. So please carry layers accordingly. We will have a better idea about the weather as the date approaches.
             </span >
         }, {
             question: "Will there be parking available at the venue?",

@@ -1,5 +1,5 @@
 import { MapPin, Plane, TramFront, TrainFront, Bed } from 'lucide-react';
-import goofyImage from '../assets/goofy-1.webp';
+import goofyImage from '../assets/goofy-3.webp';
 
 const Travel = () => {
     const headingStyle = {
@@ -56,7 +56,7 @@ const Travel = () => {
                 <div style={subsectionStyle}>
                     <p style={subHeadingStyle}>Areas</p>
                     <p>
-                        We recommend staying in the <strong>U-District</strong>, <strong>South Lake Union</strong> or <strong>Eastlake</strong> which are all easily accessible by public transportation and have a variety of accommodations to choose from.
+                        We recommend staying in the <strong>U-District</strong>, <strong>South Lake Union</strong> or <strong>Eastlake</strong> areas, which are all easily accessible by public transportation and have a variety of accommodations to choose from.
                     </p>
                 </div>
             </div>

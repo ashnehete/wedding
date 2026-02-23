@@ -45,7 +45,7 @@ const Navigation = () => {
                 <NavLink to="/" style={linkStyle}>Home</NavLink>
                 <NavLink to="/schedule" style={linkStyle}>Schedule</NavLink>
                 <NavLink to="/travel" style={linkStyle}>Travel</NavLink>
-                <NavLink to="/things-to-do" style={linkStyle}>Things to Do</NavLink>
+                {/* <NavLink to="/things-to-do" style={linkStyle}>Things to Do</NavLink> */}
                 <NavLink to="/registry" style={linkStyle}>Registry</NavLink>
                 <NavLink to="/faq" style={linkStyle}>FAQ</NavLink>
                 <NavLink to="/rsvp" style={linkStyle}>RSVP</NavLink>

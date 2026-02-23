@@ -19,8 +19,8 @@ const Schedule = () => {
         },
         {
             time: '8:30 PM',
-            event: 'Desserts & Toast',
-            description: 'Join us for desserts and a toast to the happy couple.'
+            event: 'Desserts & Cheers',
+            description: 'Join us for desserts while we celebrate the happy couple.'
         },
         {
             time: '9:00 PM',
