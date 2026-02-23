@@ -60,7 +60,7 @@ const Home = () => {
                     RSVP
                 </a>
                 <div style={{ fontSize: '1rem' }}>
-                    Deadline to RSVP: March 30th
+                    Kindly RSVP by March 30<sup>th</sup>
                 </div>
             </div>
             {/* Map */}
