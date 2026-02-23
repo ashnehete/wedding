@@ -29,7 +29,7 @@ const RSVP = () => {
                         padding: 0,
                         margin: 0
                     }}
-                    src="https://withjoy.com/shruti-parvekar-and-aashish/rsvp"
+                    src="https://withjoy.com/shruti-and-aashish/rsvp"
                     allowFullScreen={true}
                     allow="fullscreen"
                     title="Wedding RSVP"

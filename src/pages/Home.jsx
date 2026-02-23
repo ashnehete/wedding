@@ -1,4 +1,5 @@
 import homeImage from '../assets/home-image.webp';
+import { Link } from 'react-router-dom';
 
 const Home = () => {
     return (
@@ -48,17 +49,21 @@ const Home = () => {
             </div>
 
             <div style={{ margin: '2rem 0' }}>
-                <a href="/rsvp" style={{
-                    fontSize: '1.2rem',
-                    color: 'white',
-                    backgroundColor: 'var(--accent-color)',
-                    padding: '0.5rem 1rem',
-                    display: 'inline-block',
-                    width: '50%',
-                    marginBottom: '0.5rem'
-                }}>
+                <Link
+                    to="/rsvp"
+                    style={{
+                        fontSize: '1.2rem',
+                        color: 'white',
+                        backgroundColor: 'var(--accent-color)',
+                        padding: '0.5rem 1rem',
+                        display: 'inline-block',
+                        width: '50%',
+                        marginBottom: '0.5rem',
+                        textDecoration: 'none'
+                    }}
+                >
                     RSVP
-                </a>
+                </Link>
                 <div style={{ fontSize: '1rem' }}>
                     Kindly RSVP by March 30<sup>th</sup>
                 </div>
