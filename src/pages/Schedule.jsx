@@ -10,12 +10,12 @@ const Schedule = () => {
         {
             time: '5:00 PM',
             event: 'Wedding Ceremony',
-            description: 'Traditional ceremony starts with appetizers and drinks for the guests.'
+            description: 'Traditional ceremony starts with appetizers and drinks (non-alcoholic) for the guests.'
         },
         {
             time: '7:00 PM',
             event: 'Reception Dinner',
-            description: 'Join us for dinner after the ceremony.'
+            description: 'Join us for dinner after the ceremony. The food will be completely vegetarian.'
         },
         {
             time: '8:30 PM',
