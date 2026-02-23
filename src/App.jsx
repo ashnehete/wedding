@@ -1,6 +1,7 @@
 import { Routes, Route, useLocation } from 'react-router-dom';
 import { AnimatePresence } from 'framer-motion';
 import Navigation from './components/Navigation';
+import Footer from './components/Footer';
 import PageTransition from './components/PageTransition';
 import Home from './pages/Home';
 import Schedule from './pages/Schedule';
@@ -55,6 +56,7 @@ function App() {
           } />
         </Routes>
       </AnimatePresence>
+      <Footer />
     </div>
   );
 }
