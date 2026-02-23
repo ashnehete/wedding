@@ -8,6 +8,7 @@ import Travel from './pages/Travel';
 import RSVP from './pages/RSVP';
 import Registry from './pages/Registry';
 import ThingsToDo from './pages/ThingsToDo';
+import FAQ from './pages/FAQ';
 
 function App() {
   const location = useLocation();
@@ -45,6 +46,11 @@ function App() {
           <Route path="/rsvp" element={
             <PageTransition>
               <RSVP />
+            </PageTransition>
+          } />
+          <Route path="/faq" element={
+            <PageTransition>
+              <FAQ />
             </PageTransition>
           } />
         </Routes>
