@@ -1,4 +1,4 @@
-import goofy3Image from '../assets/goofy-3.jpg';
+import goofyImage from '../assets/goofy-3.webp';
 
 const ThingsToDo = () => {
     return (
@@ -7,13 +7,14 @@ const ThingsToDo = () => {
                 Coming soon!
             </p>
             <img
-                src={goofy3Image}
+                src={goofyImage}
                 alt="Home"
                 style={{
                     width: '100%',
                     objectFit: 'cover',
-                    margin: '2rem 0'
+                    marginTop: '2rem'
                 }} />
+            <p style={{ textAlign: 'center', fontStyle: 'italic' }}></p>
         </div>
     );
 };

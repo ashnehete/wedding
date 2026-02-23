@@ -1,5 +1,5 @@
 import { NavLink } from 'react-router-dom';
-import headerImage from '../assets/header-image.jpg';
+import headerImage from '../assets/header-image.webp';
 
 const Navigation = () => {
     const linkStyle = ({ isActive }) => ({
@@ -20,8 +20,7 @@ const Navigation = () => {
                 height: '30vh',
                 backgroundImage: `url(${headerImage})`,
                 backgroundSize: 'cover',
-                backgroundPosition: 'bottom center',
-                marginBottom: '0.5rem'
+                backgroundPosition: 'bottom center'
             }}></div>
 
             <div style={{

@@ -1,4 +1,4 @@
-import goofy1Image from '../assets/goofy-1.jpg';
+import goofyImage from '../assets/goofy-2.webp';
 
 const Schedule = () => {
     const schedule = [
@@ -73,13 +73,14 @@ const Schedule = () => {
             </div>
 
             <img
-                src={goofy1Image}
+                src={goofyImage}
                 alt="Home"
                 style={{
                     width: '100%',
                     objectFit: 'cover',
-                    margin: '2rem 0'
+                    marginTop: '2rem'
                 }} />
+            <p style={{ textAlign: 'center', fontStyle: 'italic' }}>Us during wedding planning...</p>
         </div>
     );
 };

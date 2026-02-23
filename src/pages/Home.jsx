@@ -1,4 +1,4 @@
-import homeImage from '../assets/home-image.jpg';
+import homeImage from '../assets/home-image.webp';
 
 const Home = () => {
     return (
